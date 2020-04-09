@@ -7,7 +7,7 @@ import (
 
 var (
 	// CRLFBytes is a const bytes for crlf.
-	CRLFBytes = []byte("\n")
+	CRLFBytes = []byte("\r\n")
 )
 
 type lineBasedFrameConn struct {
